@@ -5,25 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/starter.css">
     <script src="https://kit.fontawesome.com/8c406cf3fa.js" crossorigin="anonymous"></script>
+
+     <!-- update the version number as needed -->
+     <script defer src="/__/firebase/8.0.0/firebase-app.js"></script>
+     <!-- include only the Firebase features as you need -->
+     <script defer src="/__/firebase/8.0.0/firebase-auth.js"></script>
+     <script defer src="/__/firebase/8.0.0/firebase-database.js"></script>
+     <script defer src="/__/firebase/8.0.0/firebase-messaging.js"></script>
+     <script defer src="/__/firebase/8.0.0/firebase-storage.js"></script>
+     <script defer src="/__/firebase/8.0.0/firebase-analytics.js"></script>
+     <script defer src="/__/firebase/8.0.0/firebase-remote-config.js"></script>
+     <script defer src="/__/firebase/8.0.0/firebase-performance.js"></script>
+     <!-- initialize the SDK after all desired features are loaded -->
+     <script defer src="/__/firebase/init.js"></script>
+ 
+
     <title>Julia Soledad Soria</title>
   </head>
   <body>
     <div class="container-xl ">
       <div class="row py-4">
 
-        <div class="col-8 offset-2">
+        <div class="col-md-8 offset-md-2 col-sm-12">
           <h1 class="text-info text-center display-2 font-fredericka">Julia Soledad Soria</h1>
           <h1 class="text-info text-center font-mali" >Full-Stack Developer</h1>
         </div>
-        <div class="col-2">
-          <img src="./assets/img/IMG_20190219_225942436 (1).jpg" width="100%" class="rounded-lg ">
+        <div class="col-2 d-none d-md-block">
+          <img src="assets/img/IMG_20190219_225942436 (1).jpg" width="100%" class="rounded-lg ">
         </div>
       </div>
     <div class='row '>
-      <div class='col-6'>
+      <div class='col-md-6 col-sm-12'>
         <h5 class="text-secondary mt-5 font-mali">Innovative Full-Stack Developer with 5+ years of experience designing and developing responsive web applications.</h5> 
       </div>
-      <div class='col-4' >
+      <div class='col-md-4 col-sm-12' >
         <div class="card bg-transparent text-secondary">
           <div class="card-body"  >
             <h5 class="card-title font-weight-bold">Skills</h5>
@@ -57,12 +72,12 @@
 <div class="work-exp bg-gradient container-fluid">
   <h1 class="text-center font-mali py-3 ">Work Experience</h1>
   <div class='row justify-content-center'>
-    <div class='col-3 '>
+    <div class='col-md-3 col-sm-5'>
       <h5 class="font-weight-bolder">Full-Stack Developer</h5>
       <h6 class="font-italic">Freelance</h6>
       <h6>November 2016 - Now</h6>
     </div>
-    <div class='col-5 '>
+    <div class='col-md-5 col-sm-7'>
       <p >Capabilities:</p>
       <ul>
         <li>Design and implemented responsives mobile and web UIs</li>
@@ -73,13 +88,13 @@
     </div>
   </div>
   <div class='row justify-content-center pt-3'>
-    <div class='col-3'>
+    <div class='col-md-3 col-sm-5'>
       <h5 class="font-weight-bolder">Full-Stack Developer</h5>
       <h6 class="font-italic">Tecso Coop</h6>
       <h6>November 2018 - Now</h6>
       <p><small class="">Proyects: FullControl, InvestorsTrust, INTA, Binaria, Flexity</small></p>
     </div>
-    <div class='col-5'>
+    <div class='col-md-5 col-sm-7'>
       <p class="">Capabilities:</p>
       <ul>
         <li>Created and mantain restful APIs </li>
@@ -93,13 +108,13 @@
     </div>
   </div>
   <div class='row justify-content-center pt-3'>
-    <div class='col-3'>
+    <div class='col-md-3 col-sm-5'>
       <h5 class="font-weight-bolder">Full-Stack Developer</h5>
       <h6 class="font-italic">Neoris</h6>
       <h6>July 2017 - November 2018</h6>
       <p><small class="">Proyect: Telecom</small></p>
     </div>
-    <div class='col-5'>
+    <div class='col-md-5 col-sm-7'>
       <h6 class="">Capabilities:</h6>
       <ul>
         <li>Created and mantain restful APIs </li>
@@ -117,7 +132,7 @@
 <!-- ----------EDUCATION---------- -->
 <div class="education container-fluid">
   <div class="row">
-    <div class="col-4">
+    <div class="col-md-4 col-sm-12">
       <h1 class="text-center font-mali py-3">Education</h1>
       <h5 class="text-center font-weight-bolder mt-3">
         University Technician in Computer Systems
@@ -128,7 +143,7 @@
       <h6 class="text-center">INSP, San Nicolas, Buenos Aires 2006-2010</h6>
 
     </div>
-    <div class="col-4">
+    <div class="col-md-4 col-sm-12">
       <h1 class="text-center font-mali py-3">Some Courses</h1>
       <h5 class="text-center font-weight-bolder mt-3">CSS Essential Training</h5>
       <h6 class="text-center">Linkedin Learning - October 2020</h6>
@@ -169,13 +184,22 @@
        <i class="fab fa-whatsapp fa-lg px-1"></i>+54 336 4652500
       </a>
    
-      <a href="" class="link-info mx-2">
+      <!-- <a href="" class="link-info mx-2">
         <i class="fab fa-github fa-lg px-1"></i>
       </a>
-  
+   -->
     </div>  
 <br>
 </div>
     <script type="module" src="assets/js/starter.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.0.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.0.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
   </body>
 </html>
