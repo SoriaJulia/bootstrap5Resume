@@ -1,15 +1,11 @@
 {
-  "name": "bootstrap-npm-starter",
-  "version": "1.2.0",
-  "description": "Demo project for building a Bootstrap powered site via npm.",
+  "name": "julia-soria-resume",
+  "version": "1.0",
+  "description": "Resume made with bootstrap 5",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/bootstrap-npm-starter.git"
+    "url": "git+https://github.com/SoriaJulia/bootstrap5Resume.git"
   },
-  "bugs": {
-    "url": "https://github.com/twbs/bootstrap-npm-starter/issues"
-  },
-  "homepage": "https://github.com/twbs/bootstrap-npm-starter#readme",
   "scripts": {
     "build": "npm run css",
     "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o assets/css/",
@@ -20,16 +16,8 @@
     "watch": "nodemon -e html,scss -x \"npm run css\"",
     "test": "npm run css"
   },
-  "keywords": [
-    "bootstrap",
-    "sass",
-    "css",
-    "javascript",
-    "starter",
-    "template"
-  ],
-  "author": "mdo",
-  "license": "MIT",
+
+  "author": "Julia Soledad Soria",
   "dependencies": {
     "bootstrap": "^5.0.0-alpha2",
     "bootstrap-icons": "^1.0.0",
